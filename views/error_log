@@ -1,0 +1,2 @@
+[29-Jan-2019 17:26:31 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/juliachildlaurar/public_html/core/db.php on line 26
+[29-Jan-2019 17:55:28 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/juliachildlaurar/public_html/core/db.php on line 26

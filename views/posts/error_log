@@ -1,0 +1,25 @@
+[01-Feb-2019 20:41:37 UTC] PHP Warning:  Missing argument 1 for Post::get_by_post_id(), called in /home/juliachildlaurar/public_html/views/posts/edit-post.php on line 7 and defined in /home/juliachildlaurar/public_html/models/post.php on line 17
+[01-Feb-2019 21:26:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function edit() on null in /home/juliachildlaurar/public_html/views/posts/edit.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/juliachildlaurar/public_html/views/posts/edit.php on line 5
+[01-Feb-2019 21:28:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function edit() on null in /home/juliachildlaurar/public_html/views/posts/edit.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/juliachildlaurar/public_html/views/posts/edit.php on line 5
+[01-Feb-2019 21:42:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function int() in /home/juliachildlaurar/public_html/views/posts/edit.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/juliachildlaurar/public_html/views/posts/edit.php on line 3
+[05-Feb-2019 20:28:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function int() in /home/juliachildlaurar/public_html/models/post.php:100
+Stack trace:
+#0 /home/juliachildlaurar/public_html/models/post.php(12): Post->get_by_id(12)
+#1 /home/juliachildlaurar/public_html/views/posts/delete.php(4): Post->delete()
+#2 {main}
+  thrown in /home/juliachildlaurar/public_html/models/post.php on line 100
+[05-Feb-2019 20:35:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function int() in /home/juliachildlaurar/public_html/models/post.php:97
+Stack trace:
+#0 /home/juliachildlaurar/public_html/models/post.php(12): Post->get_by_id(12)
+#1 /home/juliachildlaurar/public_html/views/posts/delete.php(4): Post->delete()
+#2 {main}
+  thrown in /home/juliachildlaurar/public_html/models/post.php on line 97

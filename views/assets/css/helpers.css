@@ -1,0 +1,164 @@
+/*Colours*/
+.blue{color: rgba(25, 157, 189, 1)!important;}
+.red{color: rgba(209, 54, 44, 1)!important;}
+.black{color: black!important;}
+.white{color: white!important;}
+
+.bg-blue{background-color: rgba(25, 157, 189, 1)!important;}
+.bg-red{background-color: rgba(209, 54, 44, 1)!important;}
+.bg-black{background-color: black!important;}
+.bg-white{background-color: white!important;}
+
+/*Btns*/
+.red-btn{
+    background-color: rgba(209, 54, 44, 1);
+    color: white;
+    font-family: 'Tsukumogami';
+    letter-spacing: 1.2px;
+    padding: 9px 9px 9px 9px;
+    box-shadow: 1px 1px 3px grey;
+}
+
+.blue-btn{
+    background-color: rgba(25, 157, 189, 1);
+    color: white;
+    font-family: 'Tsukumogami';
+    letter-spacing: 1.2px;
+    padding: 9px 9px 9px 9px;
+    box-shadow: 1px 1px 3px grey;
+}
+
+
+
+
+.red-btn:hover, .blue-btn:hover{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.red-btn:active, .red-btn:focus, .blue-btn:active, .blue-btn:focus{
+    box-shadow: none;
+    outline-color: transparent;
+    outline-style: none;
+}
+
+
+
+
+/*Header 1*/
+.h1-tsu{
+    box-shadow: 1px 1px 4px grey;
+    font-family: 'Tsukumogami';
+    letter-spacing: 1.4px;
+    padding: 9px 9px 9px 12px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/*Header 2*/
+.h2-center{
+    box-shadow: 1px 1px 3px grey;
+    font-family: 'Tsukumogami';
+    letter-spacing: 1.2px;
+    padding: 9px 9px 9px 9px;
+    color: black;
+    background-color: white;
+    max-width: 400px;
+    margin: 40px auto 50px auto;
+    text-align: center;
+
+}
+
+.h2-left{
+    box-shadow: 1px 1px 3px grey;
+    font-family: 'Tsukumogami';
+    letter-spacing: 1.2px;
+    padding: 9px 9px 9px 12px;
+    color: black;
+    background-color: white;
+    max-width: 400px;
+    margin: 20px 0px 20px 0px;
+    text-align: left;
+
+}
+
+/*Header 3*/
+.h3{
+    font-family: 'Tsukumogami';
+    letter-spacing: 1.2px;
+    color: black;
+    margin: 20px auto 10px;
+
+
+}
+
+/*paragraph*/
+.p-reg{
+    font-family: 'Courier New';
+    font-weight: normal;
+    letter-spacing: 1.2px;
+    color: black;
+
+
+}
+
+.p-bold{
+    font-family: 'Courier New';
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    color: black;
+    padding: 5px;
+
+
+}
+
+/*White Box with Shadow*/
+.white-box-shadow{
+    background-color: white;
+    padding: 9px 9px 9px 9px;
+    box-shadow: 1px 1px 3px grey;
+
+}
+
+.black-box-shadow{
+    box-shadow: 1px 1px 3px black;
+}
+
+.height-100{
+    height: 100%;
+}
+
+/*Text Alignment*/
+.textleft{ text-align: left!important;}
+.textright{ text-align: right!important;}
+.textjustify{text-align: justify!important;}
+.textcenter{ text-align: center!important;}
+
+/*Bottom marigns*/
+.nomargin {margin:0!important;}
+.smmargin {margin-bottom: 20px!important;}
+.mdmargin {margin-bottom: 40px!important;}
+.lgmargin {margin-bottom: 60px!important;}
+.xlmargin {margin-bottom: 80px!important;}
+
+
+/*Box padding - should be the same throughout webpage*/
+.nopadding{padding-top: 0px; padding-bottom: 0px!important;}
+.smpadding{padding-top: 20px; padding-bottom: 20px!important;}
+.mdpadding{padding-top: 40px; padding-bottom: 40px!important;}
+.lgpadding{padding-top: 60px; padding-bottom: 60px!important;}
+.xlpadding{padding-top: 80px; padding-bottom: 80px!important;}
+.nopadding-bottom{padding-bottom: 0px!important;}
+.nopadding-top{padding-top: 0px!important;}
+
+
+
+/*Image Alignment*/
+.alignleft{float: left!important;}
+.alignright{float:right!important;}
+.aligncenter{margin-left: auto; margin-right: auto!important;}
+
+/*Font Size*/
+.h1fontsize{font-size: 50px;}

@@ -1,0 +1,30 @@
+[30-Jan-2019 18:04:54 UTC] PHP Warning:  require_once(../core/includes.php): failed to open stream: No such file or directory in /home/juliachildlaurar/public_html/views/users/edit-profile.php on line 1
+[30-Jan-2019 18:04:54 UTC] PHP Fatal error:  require_once(): Failed opening required '../core/includes.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/juliachildlaurar/public_html/views/users/edit-profile.php on line 1
+[30-Jan-2019 18:06:49 UTC] PHP Warning:  require_once(../elements/nav.php): failed to open stream: No such file or directory in /home/juliachildlaurar/public_html/views/users/edit-profile.php on line 6
+[30-Jan-2019 18:06:49 UTC] PHP Fatal error:  require_once(): Failed opening required '../elements/nav.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/juliachildlaurar/public_html/views/users/edit-profile.php on line 6
+[30-Jan-2019 22:12:30 UTC] PHP Warning:  require_once(../elements/footer.php): failed to open stream: No such file or directory in /home/juliachildlaurar/public_html/views/users/profile.php on line 173
+[30-Jan-2019 22:12:30 UTC] PHP Fatal error:  require_once(): Failed opening required '../elements/footer.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/juliachildlaurar/public_html/views/users/profile.php on line 173
+[30-Jan-2019 22:13:39 UTC] PHP Warning:  require_once(../elements/footer.php): failed to open stream: No such file or directory in /home/juliachildlaurar/public_html/views/users/profile.php on line 174
+[30-Jan-2019 22:13:39 UTC] PHP Fatal error:  require_once(): Failed opening required '../elements/footer.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/juliachildlaurar/public_html/views/users/profile.php on line 174
+[30-Jan-2019 22:13:53 UTC] PHP Warning:  require_once(../elements/footer.php): failed to open stream: No such file or directory in /home/juliachildlaurar/public_html/views/users/profile.php on line 174
+[30-Jan-2019 22:13:53 UTC] PHP Fatal error:  require_once(): Failed opening required '../elements/footer.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/juliachildlaurar/public_html/views/users/profile.php on line 174
+[30-Jan-2019 22:15:06 UTC] PHP Warning:  require_once(../elements/footer.php): failed to open stream: No such file or directory in /home/juliachildlaurar/public_html/views/users/profile.php on line 174
+[30-Jan-2019 22:15:06 UTC] PHP Fatal error:  require_once(): Failed opening required '../elements/footer.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/juliachildlaurar/public_html/views/users/profile.php on line 174
+[30-Jan-2019 22:21:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_by_id() in /home/juliachildlaurar/public_html/views/users/profile.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/juliachildlaurar/public_html/views/users/profile.php on line 10
+[30-Jan-2019 22:25:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_by_id() in /home/juliachildlaurar/public_html/views/users/profile.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/juliachildlaurar/public_html/views/users/profile.php on line 10
+[30-Jan-2019 22:25:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_by_id() in /home/juliachildlaurar/public_html/views/users/profile.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/juliachildlaurar/public_html/views/users/profile.php on line 10
+[30-Jan-2019 22:26:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_by_id() in /home/juliachildlaurar/public_html/views/users/profile.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/juliachildlaurar/public_html/views/users/profile.php on line 10
+[30-Jan-2019 22:40:12 UTC] PHP Warning:  require_once(../elements/footer.php): failed to open stream: No such file or directory in /home/juliachildlaurar/public_html/views/users/profile.php on line 176
+[30-Jan-2019 22:40:12 UTC] PHP Fatal error:  require_once(): Failed opening required '../elements/footer.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/juliachildlaurar/public_html/views/users/profile.php on line 176

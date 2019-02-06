@@ -1,0 +1,553 @@
+html, body{ height:100%; margin:0; }
+/*header{ height:50px;  }
+footer{ height:70px;  }*/
+
+/* Trick */
+body{
+  display:flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+body #body-content{
+    background-image: url('/assets/images/page-Background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-grow: 1;
+}
+
+footer {
+
+}
+
+#nav{
+    background-image: url('/assets/images/Nav-background-red.png');
+}
+
+.nav-logo{
+    max-width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.nav-item-custom a{
+    font-family: 'Courier New';
+    font-weight: bold;
+    background-color: white;
+    box-shadow: 1px 1px 4px black;
+    margin-left: 10px;
+    padding: 3px 7px 3px 7px!important;
+}
+
+.footer-item{
+    font-family: 'Courier New';
+    font-weight: bold;
+    background-color: white;
+    box-shadow: 1px 1px 4px black;
+    padding: 3px 7px 3px 7px!important;
+    color: black;
+
+}
+
+.footer-item:hover{
+    background-color: #e5e5e5;
+    text-decoration: none;
+    color: black;
+
+}
+
+.footer-wrapper {
+    text-align: center;
+}
+
+#footer{
+    background-image: url('/assets/images/Footer-background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top:auto;
+
+}
+
+#splash{
+    background-image: url('/assets/images/index-splash-background.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 450px;
+    padding-bottom: 80px;
+    margin-top: -40px;
+
+
+
+}
+
+
+#index-h1-wrapper{
+    background-image: url('/assets/images/index-splash-h1-background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 470px;
+    box-shadow: 1px 1px 4px black;
+    margin-left: 60px;
+
+
+}
+
+.splash-text-wrapper{
+    padding: 20px 20px 30px 20px;
+}
+
+.splash-text-wrapper h1{
+    font-family: 'Courier New';
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: .4px;
+    margin-bottom: 20px;
+}
+
+.col-wrapper{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p-width{
+    max-width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.add-marg-top{
+    margin-top: 20px;
+}
+
+.addmg{
+    margin-top: 5px;
+}
+
+@media (max-width:991px) {
+    .addmg{
+        margin-top: 10px;
+    }
+}
+
+
+.what-btn{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#about-julia{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.about-custom{
+    padding:20px!important;
+    line-height: 2;
+}
+
+
+.about-julia-pic{
+    margin-top: 20px;
+    max-height:448px;
+    margin-bottom: 20px;
+
+}
+
+.ready-wrapper{
+    text-align: center;
+}
+
+.bg-form{
+    background-image: url('/assets/images/create-acct-sign-in-Form Rectangle.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px;
+}
+
+.bg-form-long{
+    background-image: url('/assets/images/long Form Rectangle.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px;
+
+}
+
+.custom-form-input{
+    border-radius: 0px;
+    border: none;
+    border-bottom: 3px solid rgba(209, 54, 44, 1);
+    background-color: rgba(255, 255, 255, 0);
+    width: 96%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    font-family: 'Courier New';
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    color: black;
+    margin-top: 10px;
+}
+
+.custom-form-input:focus, .custom-form-input:active, .custom-time-input:active, .custom-time-input:focus{
+    border: none;
+    border-bottom: 3px solid black;
+    box-shadow: none;
+    background-color: rgba(255, 0, 0, 0); /*transparent*/
+}
+
+
+.custom-time-input{
+    border-radius: 0px;
+    border: none;
+    border-bottom: 3px solid rgba(209, 54, 44, 1);
+    background-color: rgba(255, 255, 255, 0);
+    font-family: 'Courier New';
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    color: black;
+}
+
+.time-wrapper-form{
+
+    width: 96%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.spacing-fix-time{
+    padding-left: 0px;
+}
+
+.label-time{
+    margin-bottom: 0px!important;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: 'Courier New';
+    font-weight: bold;
+    color: rgba(25, 157, 189, 1);
+    margin-top: 6px;
+    padding-left: 10px;
+}
+
+.difficulty-select{
+    color: grey;
+}
+
+
+
+.custom-form-text-area{
+    margin-top: 20px;
+    border: 3px solid rgba(209, 54, 44, 1);
+}
+
+.custom-form-text-area:focus, .custom-form-text-area:active{
+    border: 3px solid black;
+    box-shadow: none;
+    background-color: rgba(255, 0, 0, 0); /*transparent*/
+}
+
+
+
+.form-btn-custom{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.plain-text-anchor{
+    color: rgba(209, 54, 44, 1)!important;
+    font-size: 12px;
+}
+
+.plain-text-anchor:hover{
+    text-decoration: none;
+    color: black!important;
+}
+
+.julia-img{
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+#passMessage {
+    padding: 9px;
+    color: rgba(25, 157, 189, 1);
+    font-family: 'Courier New';
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+
+.drop-item-custom {
+    box-shadow: none!important;
+    margin-left: 0px!important;
+
+}
+
+
+
+.filter-search-wrapper{
+    width: 100%;
+    height: 85px;
+    color: white;
+}
+
+.img-size-wrapper{
+    width: 200px;
+    height: 200px;
+}
+
+.custom-preview-file{
+    margin-bottom: 10px;
+    object-fit: cover;
+    width: inherit;
+    height: inherit;
+    max-width: 100%;
+    max-height: 100%;
+    border: 10px solid black;
+
+}
+
+.file-upload-wrapper{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/*Styling the input*/
+
+/*hiding the input on profile page for file upload*/
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+/*Styling Label*/
+.inputfile + label {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Courier New';
+    font-weight: bold;
+    color: white;
+    background-color: rgba(25, 157, 189, 1);
+    display: inline-block;
+    padding: 3px 10px;
+    margin-top: 15px;
+    letter-spacing: 1px;
+
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: black;
+}
+
+.inputfile + label {
+	cursor: pointer; /* "hand" cursor */
+}
+
+
+
+.img-post-wrapper{
+    width: 100%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+}
+
+
+.img-post{
+    margin-bottom: 10px;
+    object-fit: cover;
+    width: inherit;
+    height: inherit;
+    max-width: 100%;
+    max-height: 100%;
+    border: 10px solid black;
+}
+
+@media (max-width:991px) {
+    .img-post{
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+}
+
+.like-number{
+    font-family: 'Tsukumogami';
+    letter-spacing: 1.2px;
+    color: black;
+    display: inline;
+}
+
+.favourite-recipe{
+    display: inline;
+    font-size: 8pt;
+}
+
+
+
+.posted-by{
+    font-size: 8pt;
+    padding:0px!important;
+}
+
+.like-icon-wrapper{
+    font-size: 8pt;
+    margin-top: 10px;
+}
+
+.left-post-wrapper{
+    padding: 9px;
+}
+
+.post-h2{
+    font-family: 'Tsukumogami';
+    letter-spacing: 1.2px;
+    color: black;
+    font-size: 21px;
+    margin-bottom: 0px;
+}
+
+.hr-post{
+    height: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.p-post{
+    font-family: 'Courier New';
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    line-height: 1.2;
+    color: black;
+    margin-top: 15px;
+}
+
+.icon-post{
+    width: 22px;
+    display: inline-block;
+}
+
+.icons-wrapper-post{
+
+    margin-bottom: 10px;
+
+}
+
+.p-difficulty{
+    font-family: 'Courier New';
+    font-weight: bold;
+    color: black;
+    font-size: 9pt;
+    display: inline;
+    padding-left: 3px;
+}
+
+.posts-rel{
+    position: relative;
+
+}
+
+.menu-post-icon{
+    position: absolute;
+    top: 5px;
+    right: 23px;
+    color: black;
+
+}
+
+.menu-post-icon:active, .menu-post-icon:focus{
+    color: black;
+
+}
+
+
+.nav-item-post{
+    font-family: 'Courier New';
+    font-weight: bold;
+
+}
+
+.dm-pos{
+    width: 100px;
+    top: 19px!important;
+    left: 66%!important;
+}
+
+@media (max-width:538px) {
+    .dm-pos{
+        width: 95px;
+        left: 63%!important;
+    }
+}
+
+@media (max-width:442px) {
+    .dm-pos{
+        width: 95px;
+        left: 53%!important;
+    }
+}
+
+.dm-pos-nav{
+        left:-14px!important;
+        top: 36px!important;
+}
+
+.add-space{
+    margin-top: 7px;
+}
+
+
+
+@media (max-width:767px) {
+    .btn-add-marg{
+        margin-bottom: 20px;
+    }
+}
+
+
+#toggle-password{
+    display: none;
+}
+
+.love-btn:hover{
+    cursor: pointer;
+}
+
+.search-btn{
+    display: inline;
+    margin-left: 5px;
+}
+
+.search-input{
+    margin-top: 26px;
+    color:white!important;
+    width: 60%;
+    display: inline;
+    margin-left: 20px;
+
+}
+
+.search-input:active, .search-input:focus{
+    border-color: white!important;
+
+}
