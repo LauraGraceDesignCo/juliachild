@@ -5,3 +5,4 @@ RewriteBase /
 
 RewriteCond %{REQUEST_URI} !^/views/
 RewriteRule ^(.*)$ /views/$1 [L]
+# juliachild
